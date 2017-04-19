@@ -1,1 +1,51 @@
-/*start your css here*/
+/*Navigation Styling*/
+#main-navbar
+{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	background-color: blue;
+}
+
+#navbar-container
+{
+	position: relative;
+	float: left;
+	left: 50%;
+}
+
+#navbar-container ul
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+	right: 50%;
+	display: block;
+	list-style-type: none;
+}
+
+#navbar-container ul li
+{
+	padding: 10px 20px;
+	float: left;
+	display: block;
+}
+
+#navbar-container a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+#navbar-container a:active
+{
+	background-color: #000;
+}
+
+#onpage a
+{
+	text-decoration: underline overline;
+}
